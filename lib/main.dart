@@ -71,6 +71,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        backgroundColor: Colors.black,
         body: _getBody(_bottomNavbarIndex),
         bottomNavigationBar: BottomNavigationBar(
           currentIndex: _bottomNavbarIndex,
